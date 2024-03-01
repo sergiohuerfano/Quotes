@@ -1,0 +1,36 @@
+{
+  "name": "quotes",
+  "version": "0.0.1",
+  "description": "Proyecto enyoi Mod3",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiohuerfano/ZTechnology_app.git"
+  },
+  "keywords": [
+    "enyoi",
+    "cotizaciones",
+    "quotes"
+  ],
+  "author": "Sergio Huerfano Murcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiohuerfano/ZTechnology_app/issues"
+  },
+  "homepage": "https://github.com/sergiohuerfano/ZTechnology_app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
